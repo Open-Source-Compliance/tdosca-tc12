@@ -41,7 +41,7 @@ To compile and run the program, ...
   - ``java -jar target/tdosca-tc12-1.0.jar``
 * or
   - ``unzip target/tdosca-tc12-1.0.zip`` and
-  - ``bash ./tdosca-tc12/bin/tc12.sh``
+  - ``bash ./tdosca-tc12-1.0/bin/tc12.sh``
 
 ## 6. Licensing <a id="lic"></a>
 
