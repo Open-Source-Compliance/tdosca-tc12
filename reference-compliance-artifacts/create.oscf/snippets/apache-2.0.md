@@ -1,175 +1,7 @@
-# Open Source Compliance File for the package complex ***tdosca-tc12-plainhw***
-
-<!-- todo: take over the global editor data -->
-
-## 1.) Company Specific Data
-
-- **TODO:** *organize an include of company specific data*
-
-## 2.) Index of included FOSS packages (= BOM)  
-
-- [tdosca-tc12](#TDOSCA-TC12) 1.0 MIT
-- [log4j](#LOG4J) 2.14.0 Apache-2.0
-- [joda-time](#JODA-TIME) 2.10.8 Apache-2.0
-
-## 3.) Compliance Artifacts for the included FOSS packages
-
-<a name="TDOSCA-TC12"> </a>
-### 3.1) Package: tdosca-tc12
-
-- Release: 1.0
-- Repository: [https://github.com/Open-Source-Compliance/tdosca-tc12-plainhw/tree/master/input-sources](https://github.com/Open-Source-Compliance/tdosca-tc12-plainhw/tree/master/input-sources)
-- **TODO:** *organize an include the package specific meta data*
-- Scope: Default
-  - LicenseID: MIT
-  - LicenseText:
+<a name="Apache-2.0"></a>
+### Apache-2.0 License Text
 
 ```
-Copyright 2020 Karsten Reincke, Deutsche Telekom AG
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
-
-<!-- deviantly licensed directories -->
-- Scope: DIR
-  - LicenseID: BSD-3-Clause
-  - Dir: `src/main/java/de/tdosca/common/`
-  - LicenseText:
-
-```
-Copyright (C) 2020 kreincke / Deutsche Telekom AG
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation and/
-or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its contributors
-may be used to endorse or promote products derived from this software without
-specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
-
-```
-
-<!-- deviantly licensed directories -->
-- Scope: FILE
-  - LicenseID: Apache-2.0
-  - File: `src/main/java/de/tdosca/tc12/Greeter.java`
-  - LicenseText: see [the replicated license text](#Apache-2.0)
-  - NoticeFile:
-
-```
-# Project TDOSCA-TC12-PLAINHW / release <#1.0.0#>
-
-*Copyright (C) 2020 Karsten Reincke / Deutsche Telekom AG <karsten.reincke@telekom.de>*
-
-The classes are licensed as follows:
-
-* Default License: M.I.T
-* Deviantly licensed:
-  - Greeter.java :- A.p.a.c.h.e-2.0 (see LICENSE.A.p.a.c.h.e-2.0)
-  - GreeterTest.java :- A.p.a.c.h.e-2.0 (see LICENSE.A.p.a.c.h.e-2.0)
-  - Tipster.java :- B.S.D-3-Clause
-  - TipsterTest.java :- B.S.D-3-Clause
-
-Note: In this more or less plaine test case we have veiled the license
-identifiers by dots as not to irritate the scanning tools
-
-Karsten Reincke [kreincke] (karsten.reincke@telekom.de)
-Daniel Eder [daniel-eder] (daniel.eder@magenta.at)
-Reinhardt Wenzina [wenzi188] (reinhardt@wenzina.com)
-
-```
-
-<a name="LOG4J"> </a>
-### 3.2) Package: log4j
-- Release: 2.14.0
-- Repository: [https://logging.apache.org/log4j/2.x/download.html](https://logging.apache.org/log4j/2.x/download.html)
-- **TODO:** *organize an include the package specific meta data*
-- Scope: Default
-  - LicenseID: Apache-2.0
-  - LicenseText: see [the replicated license text](#Apache-2.0)
-  - NoticeFile:
-
-```
-Apache Log4j
-Copyright 1999-2017 Apache Software Foundation
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
-
-ResolverUtil.java
-Copyright 2005-2006 Tim Fennell
-
-Dumbster SMTP test server
-Copyright 2004 Jason Paul Kitchen
-
-TypeUtil.java
-Copyright 2002-2012 Ramnivas Laddad, Juergen Hoeller, Chris Beams
-
-picocli (http://picocli.info)
-Copyright 2017 Remko Popma
-```
-
-<a name="JODA-TIME"> </a>
-### 3.3) Package: joda-time
-- Release: 2.10.8
-- Repository: [https://github.com/JodaOrg/joda-time](https://github.com/JodaOrg/joda-time)
-- **TODO:** *organize an include the package specific meta data*
-- Scope: Default
-  - LicenseID: Apache-2.0
-  - LicenseText: see [the replicated license text](#Apache-2.0)
-  - NoticeFile:
-
-```
-=============================================================================
-= NOTICE file corresponding to section 4d of the Apache License Version 2.0 =
-=============================================================================
-This product includes software developed by
-Joda.org (https://www.joda.org/).
-
-```
-
-
-## 4) Multiply used license texts:
-
-<a name="Apache-2.0"> </a>
-### 4.1) Apache-2.0
-
-```
-
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -347,4 +179,28 @@ Joda.org (https://www.joda.org/).
 
    END OF TERMS AND CONDITIONS
 
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 ```
